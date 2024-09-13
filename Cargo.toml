@@ -15,6 +15,7 @@ actix-web = "4.0.1"
 tokio = "1.40.0"
 tokio-macros = "2.4.0"
 serde = { version = "1", features = ["derive"] }
+config = "0.14.0"
 
 # Using table-like toml syntax to avoid a super-long line!
 [dependencies.sqlx]
